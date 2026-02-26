@@ -1,0 +1,21 @@
+{
+  "name": "svg-generator-marketplace",
+  "description": "Generate and vectorize SVGs using the Quiver AI API",
+  "owner": {
+    "name": "Travis Boudreaux",
+    "url": "https://github.com/tjboudreaux"
+  },
+  "plugins": [
+    {
+      "name": "svg-generator",
+      "description": "Generate SVGs from text prompts or convert raster images to SVG using the Quiver AI API",
+      "version": "1.0.0",
+      "source": "./",
+      "category": "design",
+      "keywords": ["svg", "image", "vector", "quiver", "generation", "vectorization"],
+      "homepage": "https://github.com/tjboudreaux/cc-skills-svg-generator",
+      "repository": "https://github.com/tjboudreaux/cc-skills-svg-generator",
+      "license": "MIT"
+    }
+  ]
+}
