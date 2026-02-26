@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "svg-generator-mcp"
+version = "1.0.0"
+description = "MCP server for generating and vectorizing SVGs using the Quiver AI API"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+keywords = ["mcp", "svg", "quiver", "ai", "vector", "image-generation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Graphics",
+]
+dependencies = [
+    "mcp>=1.0.0",
+    "requests>=2.28.0",
+]
+
+[project.scripts]
+svg-generator-mcp = "svg_generator_mcp.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/svg_generator_mcp"]

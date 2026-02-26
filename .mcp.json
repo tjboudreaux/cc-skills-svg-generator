@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "svg-generator": {
+      "command": "uvx",
+      "args": ["svg-generator-mcp"],
+      "env": {}
+    }
+  }
+}
