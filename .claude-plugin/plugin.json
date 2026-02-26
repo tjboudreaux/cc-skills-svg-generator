@@ -3,11 +3,6 @@
   "version": "1.0.0",
   "description": "Generate and vectorize SVGs using the Quiver AI API",
   "keywords": ["svg", "image", "vector", "quiver", "generation"],
-  "skills": {
-    "svg-generator": {
-      "path": "../svg-generator"
-    }
-  },
   "mcpServers": {
     "svg-generator": {
       "command": "uvx",
